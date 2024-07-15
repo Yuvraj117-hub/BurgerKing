@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: bisque;
+}
+#navbar{
+    width: 100%;
+    height: 80px;
+    position:fixed;
+    box-shadow: 2px 2px 2px gray;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    padding-top: 15px;
+    
+}
+li{
+    align-content: space-around;
+    padding-left: 50px;
+}
+.greytext{
+    font-size: 20px;
+}
+#searchbox{
+    width: 200px;
+    border-radius:  50%;
+    /* background-color: black; */
+}
+h1{
+    padding-left: 80px;
+}
+.card{
+    width: 150px;
+    height: 200px;
+    /* border: 2px solid black; */
+    margin-left: 70px;
+    margin-top: 50px;
+    float: left;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+#header{
+    width: 100%;
+    height: 330px;
+}
+.bodycard{
+    width: 300px;
+    height: 200px;
+    margin: 30px;
+    /* border: 2px solid black; */
+    float: left;
+}
+#bodycard1{
+    margin-left: 100px;
+}
+button{
+    margin-left: 450px;
+    padding-left: 60px;
+    padding-right:60px ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 50px;
+    background-color: orangered;
+    color: wheat;
+    font-size: 20px;
+    font-family: "Flame-Regular"
+
+}
+#bodyimage{
+    width: 1000px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+.cardimage{
+    width: 100%;
+    height: 120px;
+}
+.bodyimage{
+    width: 100%;
+    height: 100%;
+}
+#footer{
+    height: 500px;
+    width: 100%;
+    margin-top: 40px;
+    background-color: gray;
+}
+#scan{
+    width: 50%;
+    height: 400px;
+    margin-top: 50px;
+}
+#appstore{
+    width: 200px;
+    height: 100px;
+    margin-left: 80px
+}
+#googleplay{
+    width: 200px;
+    height: 100px;
+    padding-left: 50px;
+}
